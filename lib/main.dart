@@ -121,7 +121,7 @@ class MyHomePageState extends State<MyHomePage> {
                       children: [
                         Container(
                           child: Text(
-                            '\n\n\nStatus               :  ${getStatus(status)}\n\nInterest Genre :  ${getGenre(genre)}\n\nProfile Desc     :  $Description',
+                            '\n\n\nStatus               :  ${getStatus(status)}\n\nGenre Interest :  ${getGenre(genre)}\n\nProfile Desc     :  $Description',
                             style: TextStyle(
                               fontSize: 16,
                               color: Color.fromARGB(255, 52, 183, 231),
